@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Textures/transparent PNG/got hit/frame (2).png" type="Texture" id=1]
+[ext_resource path="res://Textures/transparent PNG/idle/frame-2 (2).png" type="Texture" id=2]
+[ext_resource path="res://Textures/transparent PNG/idle/frame-1 (2).png" type="Texture" id=3]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 70.0
+
+[node name="Red" type="StaticBody2D" groups=[
+"Monsters",
+]]
+scale = Vector2( 0.2, 0.2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.181303, 0.222222 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
