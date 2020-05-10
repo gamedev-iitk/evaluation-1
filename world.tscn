@@ -66,13 +66,6 @@ position = Vector2( -48, 144 )
 [node name="coin10" parent="coins" instance=ExtResource( 2 )]
 position = Vector2( 800, 128 )
 
-[node name="wall" type="StaticBody2D" parent="."]
-position = Vector2( -16, -32 )
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall"]
-position = Vector2( 32, 16 )
-polygon = PoolVector2Array( -336, 576, -416, 576, -416, -192, 944, -192, 944, 576, 880, 576, 880, -144, -352, -144 )
-
 [node name="score" type="Label" parent="."]
 margin_left = -288.0
 margin_top = -112.0
@@ -82,3 +75,9 @@ text = "score : 0"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="wall" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="wall"]
+position = Vector2( 32, 0 )
+polygon = PoolVector2Array( -464, 544, -464, -224, 976, -224, 976, 544, 1056, 544, 1056, -320, -576, -320, -576, 544 )

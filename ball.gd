@@ -4,6 +4,7 @@ const boost=3000
 
 func _ready():
 	set_physics_process(true) # Replace with function body.
+	
 
 func _physics_process(delta):
 	var bodies= get_colliding_bodies()
@@ -17,6 +18,26 @@ func _physics_process(delta):
 			var direction = get_position()- body.get_node("anchor").get_global_position()
 			var velocity= direction.normalized()*min(speed+boost*delta,maxspeed*delta)
 			set_linear_velocity(velocity)
-			
+		
 	if get_position().y > get_viewport_rect().end.y:
 		queue_free()
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
