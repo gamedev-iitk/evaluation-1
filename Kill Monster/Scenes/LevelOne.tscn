@@ -1,0 +1,241 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Textures/paddle.png" type="Texture" id=1]
+[ext_resource path="res://Mini_Scenes/God.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/World.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/Paddle.gd" type="Script" id=4]
+[ext_resource path="res://Mini_Scenes/Monster.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Mini_Scenes/coin.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scripts/MenuPopup.gd" type="Script" id=7]
+[ext_resource path="res://Textures/backgrounds/background 1.png" type="Texture" id=8]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 40, 4 )
+
+[node name="World" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Walls" type="StaticBody2D" parent="."]
+
+[node name="Collision" type="CollisionPolygon2D" parent="Walls"]
+polygon = PoolVector2Array( -64, 384, -64, 384, -64, -64, 704, -64, 704, 384, 640, 384, 640, 0, 0, 0, 0, 384 )
+
+[node name="Monsters" type="Node2D" parent="."]
+
+[node name="Red" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 167.799, 48.0001 )
+
+[node name="Red2" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 405.559, 96 )
+
+[node name="Red3" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 215.559, 96 )
+
+[node name="Red4" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 544, 48.0001 )
+
+[node name="Red5" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 352, 48 )
+
+[node name="Red6" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 597.7, 96 )
+
+[node name="Red7" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 448, 144 )
+
+[node name="Red8" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 265.7, 144 )
+
+[node name="Red9" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 52, 96 )
+
+[node name="Red10" parent="Monsters" instance=ExtResource( 5 )]
+position = Vector2( 96, 144 )
+
+[node name="Paddle" type="KinematicBody2D" parent="."]
+position = Vector2( 320, 324 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="Paddle"]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 1 )
+
+[node name="Collision" type="CollisionShape2D" parent="Paddle"]
+shape = SubResource( 1 )
+
+[node name="Ancor" type="Position2D" parent="Paddle"]
+position = Vector2( 0, 32 )
+
+[node name="God" type="Node2D" parent="."]
+
+[node name="Blue" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 75.6, 48.0001 )
+
+[node name="Blue2" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 306.551, 96 )
+
+[node name="Blue3" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 128, 96 )
+
+[node name="Blue4" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 448, 48 )
+
+[node name="Blue5" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 256, 48.0001 )
+
+[node name="Blue6" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 512, 96 )
+
+[node name="Blue7" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 352, 144 )
+
+[node name="Blue8" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 177.499, 144 )
+
+[node name="Blue9" parent="God" instance=ExtResource( 2 )]
+position = Vector2( 565.94, 144 )
+
+[node name="Coins" type="Node2D" parent="."]
+
+[node name="coin" parent="Coins" instance=ExtResource( 6 )]
+position = Vector2( 320, 192 )
+
+[node name="coin2" parent="Coins" instance=ExtResource( 6 )]
+position = Vector2( 565.94, 103.439 )
+
+[node name="coin3" parent="Coins" instance=ExtResource( 6 )]
+position = Vector2( 75.6, 109.044 )
+
+[node name="coin4" parent="Coins" instance=ExtResource( 6 )]
+position = Vector2( 465.132, 29.3482 )
+
+[node name="coin5" parent="Coins" instance=ExtResource( 6 )]
+position = Vector2( 140.24, 34.9557 )
+
+[node name="coin6" parent="Coins" instance=ExtResource( 6 )]
+position = Vector2( 224, 103.439 )
+
+[node name="coin7" parent="Coins" instance=ExtResource( 6 )]
+position = Vector2( 416, 103.439 )
+
+[node name="MenuPopup" type="Popup" parent="."]
+pause_mode = 2
+visible = true
+margin_left = 155.559
+margin_top = 160.26
+margin_right = 195.559
+margin_bottom = 200.26
+popup_exclusive = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="MenuPopup"]
+margin_left = 60.0
+margin_top = 40.0
+margin_right = 260.0
+margin_bottom = 140.0
+color = Color( 0.313726, 0.313726, 0.313726, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Resume" type="ColorRect" parent="MenuPopup"]
+margin_left = 70.0
+margin_top = 50.0
+margin_right = 250.0
+margin_bottom = 70.0
+
+[node name="Label" type="Label" parent="MenuPopup/Resume"]
+margin_right = 180.0
+margin_bottom = 20.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "RESUME GAME"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Restart" type="ColorRect" parent="MenuPopup"]
+margin_left = 70.0
+margin_top = 80.0
+margin_right = 250.0
+margin_bottom = 100.0
+
+[node name="Label" type="Label" parent="MenuPopup/Restart"]
+margin_right = 180.0
+margin_bottom = 20.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "RESTART GAME"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="ColorRect" parent="MenuPopup"]
+margin_left = 70.0
+margin_top = 110.0
+margin_right = 250.0
+margin_bottom = 130.0
+
+[node name="Label" type="Label" parent="MenuPopup/Quit"]
+margin_right = 180.0
+margin_bottom = 20.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "QUIT"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 319.152, 192 )
+scale = Vector2( 2.56, 2.05348 )
+z_index = -10
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 1000, 561 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Coins Collected" type="RichTextLabel" parent="CanvasLayer"]
+margin_top = 16.0
+margin_right = 76.0
+margin_bottom = 32.0
+text = "Coins: 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Kills" type="RichTextLabel" parent="CanvasLayer"]
+margin_left = 588.0
+margin_top = 16.0
+margin_right = 640.0
+margin_bottom = 32.0
+text = "Kills: 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" type="RichTextLabel" parent="CanvasLayer"]
+margin_top = 336.0
+margin_right = 88.0
+margin_bottom = 352.0
+text = "Score: 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="coin_collected" from="Coins/coin" to="." method="_on_coin_coin_collected"]
+[connection signal="coin_collected" from="Coins/coin2" to="." method="_on_coin_coin_collected"]
+[connection signal="coin_collected" from="Coins/coin3" to="." method="_on_coin_coin_collected"]
+[connection signal="coin_collected" from="Coins/coin4" to="." method="_on_coin_coin_collected"]
+[connection signal="coin_collected" from="Coins/coin5" to="." method="_on_coin_coin_collected"]
+[connection signal="coin_collected" from="Coins/coin6" to="." method="_on_coin_coin_collected"]
+[connection signal="coin_collected" from="Coins/coin7" to="." method="_on_coin_coin_collected"]

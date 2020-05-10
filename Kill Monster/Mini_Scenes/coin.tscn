@@ -1,0 +1,38 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Textures/star coin animation Pack/star coin rotate/star coin rotate 1.png" type="Texture" id=1]
+[ext_resource path="res://Textures/star coin animation Pack/star coin rotate/star coin rotate 2.png" type="Texture" id=2]
+[ext_resource path="res://Textures/star coin animation Pack/star coin rotate/star coin rotate 4.png" type="Texture" id=3]
+[ext_resource path="res://Textures/star coin animation Pack/star coin rotate/star coin rotate 3.png" type="Texture" id=4]
+[ext_resource path="res://Textures/star coin animation Pack/star coin rotate/star coin rotate 5.png" type="Texture" id=5]
+[ext_resource path="res://Textures/star coin animation Pack/star coin rotate/star coin rotate 6.png" type="Texture" id=6]
+[ext_resource path="res://Scripts/coin.gd" type="Script" id=7]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 5 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "default",
+"speed": 15.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 6.0
+
+[node name="coin" type="Area2D" groups=[
+"Coins",
+]]
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.005, 0.005 )
+frames = SubResource( 1 )
+frame = 3
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+[connection signal="body_entered" from="." to="." method="_on_coin_body_entered"]
