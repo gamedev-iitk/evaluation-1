@@ -1,0 +1,88 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scripts/paddle.gd" type="Script" id=1]
+[ext_resource path="res://Textures/paddle.png" type="Texture" id=2]
+[ext_resource path="res://scenes/levelOne.gd" type="Script" id=3]
+[ext_resource path="res://mini_scene/brick.tscn" type="PackedScene" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 77, 0 )
+
+[node name="world" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Paddle" type="KinematicBody2D" parent="."]
+position = Vector2( 512, 512 )
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Paddle"]
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionPaddle" type="CollisionShape2D" parent="Paddle"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Ancor" type="Position2D" parent="Paddle"]
+position = Vector2( 0, 64 )
+scale = Vector2( 3, 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Walls" type="StaticBody2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="colllision" type="CollisionPolygon2D" parent="Walls"]
+polygon = PoolVector2Array( 0, 672, -128, 672, -128, -96, 1152, -96, 1152, 672, 1024, 672, 1024, 0, 0, 0 )
+
+[node name="bricks" type="Node2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="brick" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 704, 192 )
+
+[node name="brick10" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 896, 192 )
+
+[node name="brick9" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 512, 192 )
+
+[node name="brick8" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 320, 192 )
+
+[node name="brick7" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 128, 192 )
+
+[node name="brick6" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 128, 96 )
+
+[node name="brick5" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 896, 96 )
+
+[node name="brick4" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 704, 96 )
+
+[node name="brick3" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 320, 96 )
+
+[node name="brick2" parent="bricks" instance=ExtResource( 4 )]
+position = Vector2( 512, 96 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 160.0
+margin_bottom = 46.0
+text = "Robot : 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
