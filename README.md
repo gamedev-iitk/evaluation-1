@@ -1,3 +1,8 @@
+Learnt Git version control and Made a Game for the evaluation 1.
+
+Video of working of the Game "John Lemon's Haunted Jaunt"
+
+
 # evaluation-1
 An empty repository to demonstrate the GitHub flow and send PRs to.
 
