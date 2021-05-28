@@ -1,0 +1,4 @@
+Firstly, I created a 3D gun on blender saved as gun.blend in the project.
+I added the gun as a child to John Lemon character that fires bullets (using space key) and can destroy the ghosts and gargoyles (given a tag 'Enemy').
+I have also added a Score column, that would be visible at the middle bottom of game screen and the score gets incremented by 10 points everytime John succeeds in hitting an enemy with the bullet.
+
