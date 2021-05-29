@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 62e87fed5484f9148b189cade6910a9d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Sherlock
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 711c279a3de64f74692e9febecb90719, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
