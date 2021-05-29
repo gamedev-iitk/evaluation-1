@@ -1,7 +1,7 @@
 # JohnLemon Game Project
-# Madhav
-# IITK - Y20
-# CHE
+## By Madhav
+### IITK - Y20
+### CHE
 
 Game is developed following the Unity Text tutorial and added some features on it.
 
