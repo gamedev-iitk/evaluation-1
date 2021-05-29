@@ -1,0 +1,26 @@
+# Starting compiling UnityEngine.TestRunner.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-0a4ce78beb0c5fd419a0ed53748d108e
+# Starting compiling UnityEngine.UI.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-b736e78d2b3635e42a5a4db790629b4b
+# Starting compiling UnityEngine.Purchasing.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-78f6aaac319aecd42bb5be2f2f4dc2a7
+# Starting compiling Unity.Timeline.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-07663a53839bd2543925a71121b25ddf
+# Starting compiling Unity.TextMeshPro.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-211b9ef1e2231b341a65524e5206e8e6
+# Starting compiling UnityEngine.Advertisements.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a01226dbd65491c4ab77907774f2fe62
+# Starting compiling UnityEngine.SpatialTracking.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-7c44c9f90b29486439d04811d8ddc38d
+# Starting compiling Unity.Analytics.DataPrivacy.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-3548c47f7d86c804aa90b3784a838cfb
+# Starting compiling Unity.Postprocessing.Runtime.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-e6239c1043d9a774db09b72132b2116f
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c281cf0fc44925a41b9eeb1c6d226b1d
+# Starting compiling UnityEngine.Monetization.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-e68fde4cd8d9bda41b725269d0b4b964
+# Starting compiling Cinemachine.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-2ac843439b3bd8b45b3d152a5cf071fd
+# Starting compiling Assembly-CSharp.dll
+D:\warzone\2020.3.8f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a449021fb0cbb124f83f7f3b60579eae
