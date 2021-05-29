@@ -1,0 +1,8 @@
+#include "il2cpp-config.h"
+#include "/home/pawan/gamede/unity/2020.3.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/BlobReader.cpp"
+#include "/home/pawan/gamede/unity/2020.3.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/Debugger.cpp"
+#include "/home/pawan/gamede/unity/2020.3.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/NativeDelegateMethodCache.cpp"
+#include "/home/pawan/gamede/unity/2020.3.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/NativeSymbol.cpp"
+#include "/home/pawan/gamede/unity/2020.3.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/VmStringUtils.cpp"
+#include "/home/pawan/gamede/unity/2020.3.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/icalls/mscorlib/System.Threading/Interlocked.cpp"
+#include "/home/pawan/gamede/unity/2020.3.9f1/Editor/Data/il2cpp/libil2cpp/vm-utils/icalls/mscorlib/System/Math.cpp"
