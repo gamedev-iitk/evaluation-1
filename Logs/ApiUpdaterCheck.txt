@@ -1,0 +1,60 @@
+[api-updater (non-obsolete-error-filter)] 14-02-2022 23:32:21 : Starting E:/GAMEDEV_ SOCIETY/TOOLS/2020.3.27f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 324.1871ms
+moved types parse time: 56ms
+candidates parse time : 1ms
+C# parse time         : 616ms
+candidates check time : 39ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 14-02-2022 23:45:37 : Starting E:/GAMEDEV_ SOCIETY/TOOLS/2020.3.27f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 99.7881ms
+moved types parse time: 60ms
+candidates parse time : 1ms
+C# parse time         : 199ms
+candidates check time : 34ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 14-02-2022 23:48:36 : Starting E:/GAMEDEV_ SOCIETY/TOOLS/2020.3.27f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 182.9645ms
+moved types parse time: 56ms
+candidates parse time : 1ms
+C# parse time         : 202ms
+candidates check time : 33ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 14-02-2022 23:49:08 : Starting E:/GAMEDEV_ SOCIETY/TOOLS/2020.3.27f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 203.5074ms
+moved types parse time: 56ms
+candidates parse time : 1ms
+C# parse time         : 199ms
+candidates check time : 32ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 15-02-2022 15:56:09 : Starting E:/GAMEDEV_ SOCIETY/TOOLS/2020.3.27f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 960.2752ms
+moved types parse time: 97ms
+candidates parse time : 2ms
+C# parse time         : 1024ms
+candidates check time : 34ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 15-02-2022 16:08:59 : Starting E:/GAMEDEV_ SOCIETY/TOOLS/2020.3.27f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 200.1182ms
+moved types parse time: 57ms
+candidates parse time : 1ms
+C# parse time         : 199ms
+candidates check time : 38ms
+console write time    : 0ms
+
