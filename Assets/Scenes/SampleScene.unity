@@ -327,7 +327,7 @@ MonoBehaviour:
   - {fileID: 300460731}
   - {fileID: 1476912196}
   blockPrefab: {fileID: 2599206457421219858, guid: 05c1739bcb3798b44aef7a8ea0d70c58, type: 3}
-  timebtwaves: 1
+  timebtwaves: 0.6
 --- !u!4 &545320079
 Transform:
   m_ObjectHideFlags: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1341823338}
-  forwardforce: 3000
+  forwardforce: 2500
   sideforce: 90
 --- !u!114 &1341823340
 MonoBehaviour:
