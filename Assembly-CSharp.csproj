@@ -40,9 +40,10 @@
      <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
      <Compile Include="Assets\Scripts\Observer.cs" />
      <Compile Include="Assets\Scripts\GameEnding.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\LightFlicker.cs" />
-     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <None Include="Assets\3DBeginner_Third-PartyNotice.txt" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\SpookyStandardShader.shader" />

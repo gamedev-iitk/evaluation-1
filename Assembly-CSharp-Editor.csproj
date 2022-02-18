@@ -271,29 +271,29 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.analytics@3.3.5\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.purchasing@2.0.6\Editor\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.collab-proxy@1.15.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.analytics@3.3.5\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -655,20 +655,29 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -685,41 +694,32 @@
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Monetization">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>E:\GAMEDEV_ SOCIETY\UNITY\PROJECTS\John Lemon&apos;s  Haunted Jaunt\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
