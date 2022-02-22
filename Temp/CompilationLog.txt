@@ -1,0 +1,24 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4196b22a1933c02e9b3ce5d360d77df9
+# Starting compiling UnityEngine.UI.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-124cd4662c3ee55eb91b0de2a86cbca0
+# Starting compiling Unity.Timeline.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7158a46908ccbe865b9a014a4fb1cb76
+# Starting compiling Unity.TextMeshPro.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9284c15a6cf15a396835bd2b25d9f353
+# Starting compiling UnityEngine.Advertisements.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cd6c522717cb5c9cca78ce1ae0b40f86
+# Starting compiling UnityEngine.SpatialTracking.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ae37fb438376d70dcbd4f65142cdd2ff
+# Starting compiling Unity.Analytics.DataPrivacy.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-800c2c03f852dbb09ab80d46ba7bd85f
+# Starting compiling Unity.Postprocessing.Runtime.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-29be963dd2d3a1134a77571de42bdd94
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c95f475da4947653594d1df43e05a3be
+# Starting compiling UnityEngine.Monetization.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d0080999c67a2b6939cb6075813428e6
+# Starting compiling Cinemachine.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d263f0377e675807088b3021b53a5ee6
+# Starting compiling Assembly-CSharp.dll
+/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4fe415467de383f388640f03634cc437
