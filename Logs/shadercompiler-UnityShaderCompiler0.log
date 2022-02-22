@@ -1,0 +1,196 @@
+Base path: '/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data', plugins path '/home/arbas19/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=11166 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute kernel=MultiScaleVORender_interleaved cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVORender_interleaved>,<INTERLEAVE_RESULT=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=2128 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Histogram.compute kernel=KHistogramGather cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Histogram.compute(7): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Histogram.compute(7): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=2128 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Histogram.compute kernel=KHistogramClear cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Histogram.compute(7): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Histogram.compute(7): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1220 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Texture3DLerp.compute kernel=KTexture3DLerp cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Texture3DLerp.compute(3): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Texture3DLerp.compute(3): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1220 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Texture3DLerp.compute kernel=KTexture3DLerp cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Texture3DLerp.compute(3): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Texture3DLerp.compute(3): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1220 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Texture3DLerp.compute kernel=KTexture3DLerpToColor cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Texture3DLerp.compute(3): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Texture3DLerp.compute(3): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3152 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/AutoExposure.compute kernel=KAutoExposureAvgLuminance_fixed cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=KAutoExposureAvgLuminance_fixed>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/AutoExposure.compute(6): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at AutoExposure.compute(6): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3152 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/AutoExposure.compute kernel=KAutoExposureAvgLuminance_fixed cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=KAutoExposureAvgLuminance_fixed>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/AutoExposure.compute(6): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at AutoExposure.compute(6): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3152 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/AutoExposure.compute kernel=KAutoExposureAvgLuminance_progressive cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=KAutoExposureAvgLuminance_progressive>,<PROGRESSIVE=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/AutoExposure.compute(6): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at AutoExposure.compute(6): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11166 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute kernel=MultiScaleVORender cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVORender>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11166 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute kernel=MultiScaleVORender_MSAA cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVORender_MSAA>,<MSAA=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11166 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute kernel=MultiScaleVORender_MSAA_interleaved cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVORender_MSAA_interleaved>,<MSAA=1>,<INTERLEAVE_RESULT=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11166 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute kernel=MultiScaleVORender_interleaved cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVORender_interleaved>,<INTERLEAVE_RESULT=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11166 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute kernel=MultiScaleVORender_MSAA cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVORender_MSAA>,<MSAA=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVORender.compute(29): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5024 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute kernel=KGenLut3D_NoTonemap cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<TONEMAPPING_NONE=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5024 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute kernel=KGenLut3D_NeutralTonemap cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<TONEMAPPING_NEUTRAL=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5024 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute kernel=KGenLut3D_NoTonemap cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<TONEMAPPING_NONE=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5024 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute kernel=KGenLut3D_NeutralTonemap cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<TONEMAPPING_NEUTRAL=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Lut3DBaker.compute(0): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3526 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute kernel=MultiScaleVODownsample1 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<main=MultiScaleVODownsample1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute(27): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVODownsample1.compute(27): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3526 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute kernel=MultiScaleVODownsample1_MSAA cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<main=MultiScaleVODownsample1_MSAA>,<MSAA=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute(27): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVODownsample1.compute(27): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_premin cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_premin>,<COMBINE_LOWER_RESOLUTIONS=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_premin_blendout cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_premin_blendout>,<COMBINE_LOWER_RESOLUTIONS=1>,<BLEND_WITH_HIGHER_RESOLUTION=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_MSAA_invert cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_MSAA_invert>,<MSAA=1>,<INVERT=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_MSAA_blendout cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_MSAA_blendout>,<MSAA=1>,<BLEND_WITH_HIGHER_RESOLUTION=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_premin cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_premin>,<COMBINE_LOWER_RESOLUTIONS=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_premin_blendout cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_premin_blendout>,<COMBINE_LOWER_RESOLUTIONS=1>,<BLEND_WITH_HIGHER_RESOLUTION=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_MSAA_invert cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_MSAA_invert>,<MSAA=1>,<INVERT=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=18709 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute kernel=MultiScaleVOUpSample_MSAA_blendout cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<MAIN=MultiScaleVOUpSample_MSAA_blendout>,<MSAA=1>,<BLEND_WITH_HIGHER_RESOLUTION=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVOUpsample.compute(36): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=5587 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/GaussianDownsample.compute kernel=KMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/GaussianDownsample.compute(24): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at GaussianDownsample.compute(24): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3168 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/ExposureHistogram.compute kernel=KEyeHistogram cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/ExposureHistogram.compute(6): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at ExposureHistogram.compute(6): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3168 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/ExposureHistogram.compute kernel=KEyeHistogram cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/ExposureHistogram.compute(6): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at ExposureHistogram.compute(6): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1858 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Waveform.compute kernel=KWaveformGather cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Waveform.compute(3): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Waveform.compute(3): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1858 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Waveform.compute kernel=KWaveformGather cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Waveform.compute(3): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Waveform.compute(3): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1499 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Vectorscope.compute kernel=KVectorscopeGather cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Vectorscope.compute(3): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Vectorscope.compute(3): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1499 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Vectorscope.compute kernel=KVectorscopeGather cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Debug/Vectorscope.compute(3): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at Vectorscope.compute(3): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=2114 file=/tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute kernel=MultiScaleVODownsample2 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=24 km=<main=MultiScaleVODownsample2>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=glcore flags=4096  error: 2 plat 25 at /tmp/b07be8945cbbc9c09aa2a593ec2f7eac/Library/PackageCache/com.unity.postprocessing@2.3.0/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute(27): Couldn't open include file '../StdLib.hlsl'.
+  error: 2 plat 25 at MultiScaleVODownsample2.compute(27): Couldn't open include file '../StdLib.hlsl'.
+ ok=0 outsize=0
+
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process
