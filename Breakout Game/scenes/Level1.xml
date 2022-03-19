@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="9" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://scripts/World.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://scripts/paddle.gd" type="Script" index="1"></ext_resource>
+	<ext_resource path="res://textures/paddle.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://mini scenes/BrickOne.xml" type="PackedScene" index="3"></ext_resource>
+	<resource type="RectangleShape2D" path="local://2">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 20, 2 </vector2>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 0, 0, 352, -96, 352, -96, -96 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://4">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 0, -96, -96, 736, -96, 640, 0 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://5">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			640, 0, 736, -96, 736, 352, 640, 352 </vector2_array>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="1" shared="false">
+				<node_path> "Bricks/Brick" </node_path>
+			</array>
+			<string> "names" </string>
+			<string_array  len="65">
+				<string> "World" </string>
+				<string> "script/script" </string>
+				<string> "Node2D" </string>
+				<string> "Paddle" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/scale" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "collision/margin" </string>
+				<string> "KinematicBody2D" </string>
+				<string> "Sprite" </string>
+				<string> "texture" </string>
+				<string> "__meta__" </string>
+				<string> "Collision" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "Anchor" </string>
+				<string> "Position2D" </string>
+				<string> "Walls" </string>
+				<string> "shapes/1/shape" </string>
+				<string> "shapes/1/transform" </string>
+				<string> "shapes/1/trigger" </string>
+				<string> "shapes/2/shape" </string>
+				<string> "shapes/2/transform" </string>
+				<string> "shapes/2/trigger" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "StaticBody2D" </string>
+				<string> "build_mode" </string>
+				<string> "polygon" </string>
+				<string> "shape_range" </string>
+				<string> "CollisionPolygon2D" </string>
+				<string> "Bricks" </string>
+				<string> "Brick" </string>
+				<string> "Brick1" </string>
+				<string> "Brick2" </string>
+				<string> "Brick3" </string>
+				<string> "Brick4" </string>
+				<string> "Brick5" </string>
+				<string> "Brick6" </string>
+				<string> "Brick7" </string>
+				<string> "Brick8" </string>
+				<string> "Brick9" </string>
+				<string> "Score" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "text" </string>
+				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
+				<string> "Label" </string>
+				<string> "special bricks" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 20 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="280"> 				-1, -1, 2, 0, -1, 1, 1, 0, 0, 0, 0, 13, 3, -1, 10, 4, 1, 5, 2, 6, 3, 7, 4, 8, 5, 9, 3, 10, 6, 11, 6, 12, 7, 1, 8, 0, 1, 0, 14, 14, -1, 2, 15, 9, 16, 10, 0, 1, 0, 21, 17, -1, 4, 18, 4, 19, 3, 20, 11, 16, 12, 0, 1, 0, 23, 22, -1, 2, 4, 13, 5, 14, 0, 0, 0, 35, 24, -1, 17, 6, 3, 7, 15, 8, 16, 9, 3, 25, 17, 26, 16, 27, 3, 28, 18, 29, 16, 30, 3, 10, 6, 11, 6, 31, 19, 32, 20, 33, 21, 34, 20, 16, 22, 0, 5, 0, 39, 17, -1, 5, 36, 11, 37, 23, 38, 24, 19, 3, 16, 25, 0, 0, 0, 2, 40, -1, 0, 0, 7, 0, 2147483647, 41, 26, 1, 4, 27, 0, 7, 0, 2147483647, 42, 26, 1, 4, 28, 0, 7, 0, 2147483647, 43, 26, 1, 4, 29, 0, 7, 0, 2147483647, 44, 26, 1, 4, 30, 0, 7, 0, 2147483647, 45, 26, 1, 4, 31, 0, 7, 0, 2147483647, 46, 26, 1, 4, 32, 0, 7, 0, 2147483647, 47, 26, 1, 4, 33, 0, 7, 0, 2147483647, 48, 26, 1, 4, 34, 0, 7, 0, 2147483647, 49, 26, 1, 4, 35, 0, 7, 0, 2147483647, 50, 26, 1, 4, 36, 0, 0, 0, 63, 51, -1, 11, 52, 37, 53, 38, 54, 39, 55, 40, 56, 41, 57, 41, 58, 42, 59, 43, 60, 21, 61, 11, 62, 44, 0, 0, 0, 35, 64, -1, 8, 4, 45, 6, 3, 10, 6, 11, 6, 31, 19, 32, 20, 33, 21, 34, 20, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="46" shared="false">
+				<resource  external="0">  </resource>
+				<vector2> 326.648, 321.108 </vector2>
+				<vector2> 2, 2 </vector2>
+				<bool> False </bool>
+				<resource  resource_type="Shape2D" path="local://2">  </resource>
+				<matrix32> 1, 0, 0, 1, 0, 0 </matrix32>
+				<int> 1 </int>
+				<real> 0.08 </real>
+				<resource  external="1">  </resource>
+				<resource  external="2">  </resource>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<int> 0 </int>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0, 16 </vector2>
+				<vector2> 0.5, 0.5 </vector2>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<matrix32> 1, -0, 0, 1, 0, 0 </matrix32>
+				<resource  resource_type="Shape2D" path="local://4">  </resource>
+				<resource  resource_type="Shape2D" path="local://5">  </resource>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2_array  len="8"> 					0, 352, -96, 352, -96, -96, 736, -96, 736, 352, 640, 352, 640, 0, 0, 0 </vector2_array>
+				<vector2> 0, 2 </vector2>
+				<dictionary  shared="false">
+					<string> "_edit_lock_" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="3">  </resource>
+				<vector2> 320, 80 </vector2>
+				<vector2> 320, 112 </vector2>
+				<vector2> 384, 112 </vector2>
+				<vector2> 256, 112 </vector2>
+				<vector2> 448, 80 </vector2>
+				<vector2> 192, 80 </vector2>
+				<vector2> 384, 80 </vector2>
+				<vector2> 256, 80 </vector2>
+				<vector2> 448, 112 </vector2>
+				<vector2> 192, 112 </vector2>
+				<real> 32 </real>
+				<real> 16 </real>
+				<real> 96 </real>
+				<real> 29 </real>
+				<bool> True </bool>
+				<int> 2 </int>
+				<string> "Score: 0" </string>
+				<int> -1 </int>
+				<vector2> 567.313, 93.0748 </vector2>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
