@@ -1,0 +1,272 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7504 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/HP/3D beginner
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54180
+Successfully changed project path to: C:/Users/HP/3D beginner
+C:/Users/HP/3D beginner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 178.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/HP/3D beginner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3752 MB
+    Driver:   30.0.13044.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006979 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 220.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1239ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (919ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (221ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009784 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\3D beginner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\HP\3D beginner\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1811ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (466ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (690ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.4 MB). Loaded Objects now: 4348.
+Memory consumption went from 217.6 MB to 216.2 MB.
+Total: 7.258000 ms (FindLiveObjects: 0.541900 ms CreateObjectMapping: 0.168800 ms MarkObjects: 5.209500 ms  DeleteObjects: 1.335800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69710.088864 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Crystal
+  artifactKey: Guid(bc0bc30b347044d9096bd88d4f98a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Crystal using Guid(bc0bc30b347044d9096bd88d4f98a5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998977b8c947d25ccef5178cd825f10') in 0.023702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Crystal/gem_06.prefab
+  artifactKey: Guid(c7698cfd4f3fc43f692e93917e2979e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Crystal/gem_06.prefab using Guid(c7698cfd4f3fc43f692e93917e2979e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1bdb7adfa2011f392cded565733df7') in 0.188887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Crystal/gem_03.prefab
+  artifactKey: Guid(d335d163ad5894ad3b28fc579a9db510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Crystal/gem_03.prefab using Guid(d335d163ad5894ad3b28fc579a9db510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb7450eb9d6bec12248d6c81fb86853') in 0.024008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Crystal/gem_08.prefab
+  artifactKey: Guid(f3eb35d92e3c24479b38c9ea4d2ad6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Crystal/gem_08.prefab using Guid(f3eb35d92e3c24479b38c9ea4d2ad6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c1db32bfbedd4bf1acf41c288f1fac') in 0.024410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.712574 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink
+  artifactKey: Guid(28324e111808a4355af1a2b6aacc476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink using Guid(28324e111808a4355af1a2b6aacc476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5392b70919430d882c760a9807cd3d16') in 0.002096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_03.prefab
+  artifactKey: Guid(ca3c4eb73632b47f9b72cc7b3ff40998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_03.prefab using Guid(ca3c4eb73632b47f9b72cc7b3ff40998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bcb33c428ad42d92419886021d38ba') in 0.016737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_15.prefab
+  artifactKey: Guid(595a1df168b4a475ea77e10b304c4f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_15.prefab using Guid(595a1df168b4a475ea77e10b304c4f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e8d651dfbb68772660d2e2b90c6b6d') in 0.033326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_10.prefab
+  artifactKey: Guid(7fa3472dd87c34ffcb32028f23e55c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_10.prefab using Guid(7fa3472dd87c34ffcb32028f23e55c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe562e13cf588177577ee657a67e167') in 0.027376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_07.prefab
+  artifactKey: Guid(45fbdc230df0949d7a3e58a719cc5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_07.prefab using Guid(45fbdc230df0949d7a3e58a719cc5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ff38c76926835ffb535ee6902bd3c3') in 0.030509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_04.prefab
+  artifactKey: Guid(eab4abe6f8de141a38fac6bc30739d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_04.prefab using Guid(eab4abe6f8de141a38fac6bc30739d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3e8e5bc9fef8100915746a1dc16543') in 0.028091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Pink/gem_06.prefab
+  artifactKey: Guid(59a55ed902aa34ae58114d62ecacb826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Pink/gem_06.prefab using Guid(59a55ed902aa34ae58114d62ecacb826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e656013569269d10a2016eeb8d053') in 0.027379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.216471 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange
+  artifactKey: Guid(b0ac939b0efeb4569b6163a0b5835b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange using Guid(b0ac939b0efeb4569b6163a0b5835b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc90d550ca8875cbf4399d21b00d960') in 0.002393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_02.prefab
+  artifactKey: Guid(f20a862566fb4490487a59a4b5ab0dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_02.prefab using Guid(f20a862566fb4490487a59a4b5ab0dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbae3a9f637b27511d8506d9d8479a2') in 0.016837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_16.prefab
+  artifactKey: Guid(1350a62bb459a4ecfb4f9f5ef7258ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_16.prefab using Guid(1350a62bb459a4ecfb4f9f5ef7258ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41894c2dd471e7e79c67d81eaad82378') in 0.030087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_18.prefab
+  artifactKey: Guid(aa95013afb16f4061860834cdbf12a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_18.prefab using Guid(aa95013afb16f4061860834cdbf12a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf724ebd5eea3b2dbaceac3661adc11') in 0.031412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_11.prefab
+  artifactKey: Guid(7357f5fc80f184434814a6d6ac94b854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_11.prefab using Guid(7357f5fc80f184434814a6d6ac94b854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea1f60ad4d7e8368bf2bc8e9a67b88') in 0.025923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_12.prefab
+  artifactKey: Guid(31186be2fed1340c9a47d075c4f00eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_12.prefab using Guid(31186be2fed1340c9a47d075c4f00eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771ad3ecbeda7c64041dc488c2ae8865') in 0.029181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sets - Gems/Prefabs/Gems - Orange/gem_04.prefab
+  artifactKey: Guid(3deb4dbd647194c17b7fbdd3d62a8db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sets - Gems/Prefabs/Gems - Orange/gem_04.prefab using Guid(3deb4dbd647194c17b7fbdd3d62a8db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40373618481a27a0251063f9e2720686') in 0.025994 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
