@@ -1,59 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Observer : MonoBehaviour
 {
-    public float fadeDuration = 1f;
-    public float displayImageDuration = 1f;
-    public GameObject player;
-    public CanvasGroup exitBackgroundImageCanvasGroup; 
-    public CanvasGroup caughtBackgroundImageCanvasGroup;
+    public Transform player;
+    public GameEnding gameEnding;
 
-    bool m_IsPlayerAtExit;
-    bool m_IsPlayerCaught;
-    float m_Timer;
-    
+    bool m_IsPlayerInRange;
+
     void OnTriggerEnter (Collider other)
     {
-        if (other.gameObject == player)
+        if (other.transform == player)
         {
-            m_IsPlayerAtExit = true;
+            m_IsPlayerInRange = true;
         }
     }
 
-    public void CaughtPlayer ()
+    void OnTriggerExit (Collider other)
     {
-        m_IsPlayerCaught = true;
+        if (other.transform == player)
+        {
+            m_IsPlayerInRange = false;
+        }
     }
 
     void Update ()
     {
-        if (m_IsPlayerAtExit)
+        if (m_IsPlayerInRange)
         {
-            EndLevel (exitBackgroundImageCanvasGroup, false);
-        }
-        else if (m_IsPlayerCaught)
-        {
-            EndLevel (caughtBackgroundImageCanvasGroup, true);
-        }
-    }
+            Vector3 direction = player.position - transform.position + Vector3.up;
+            Ray ray = new Ray(transform.position, direction);
+            RaycastHit raycastHit;
 
-    void EndLevel (CanvasGroup imageCanvasGroup, bool doRestart)
-    {
-        m_Timer += Time.deltaTime;
-        imageCanvasGroup.alpha = m_Timer / fadeDuration;
-
-        if (m_Timer > fadeDuration + displayImageDuration)
-        {
-            if (doRestart)
+            if(Physics.Raycast(ray, out raycastHit))
             {
-                SceneManager.LoadScene (0);
-            }
-            else
-            {
-                Application.Quit ();
+                if (raycastHit.collider.transform == player)
+                {
+                    
+                }
             }
         }
     }

@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 1727462645668982824}
   - component: {fileID: 4624396231117561827}
   - component: {fileID: 5723221783282119441}
+  - component: {fileID: 4881340309291985634}
   m_Layer: 0
   m_Name: JohnLemon (1)
   m_TagString: Untagged
@@ -391,7 +392,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7380687504981348014}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.4
   m_Height: 1.4
@@ -410,6 +411,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 20
+--- !u!81 &4881340309291985634
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7380687504981348014}
+  m_Enabled: 1
 --- !u!1 &7380687504981348016
 GameObject:
   m_ObjectHideFlags: 0
